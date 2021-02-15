@@ -10,6 +10,8 @@ public class Vektor {
         this(0, 0, 0);
     }
 
+
+
     //Besitzen Methoden- und KOnstruktorenparameter die gleichen NAmen wie die Instanzfelder, dann müssen diese
     //über this angesprochen werden
     public Vektor(int x, int y, int z) {
@@ -19,11 +21,10 @@ public class Vektor {
     }
 
     // ein über den Copy Konstruktor erzeugtes Objekt hat die gleichen Feldwerte wie das übergebene
-    public void Vektor(Vektor v) {
-        x = v.x;
-        y = v.y;
-        z = v.z;
-
+    public Vektor(Vektor v2) {
+        x = v2.x;
+        y = v2.y;
+        z = v2.z;
         System.out.println("Test1");
     }
 
@@ -43,7 +44,7 @@ public class Vektor {
         return this;
     }
 
-    //neuer Methodenname
+    //neuer Methodenname neu1
     public Vektor neu1(int a, int b, int c) {
         Vektor vektor = new Vektor();
             vektor.x =x + a;
