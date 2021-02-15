@@ -7,7 +7,7 @@ public class Punkt {
     private double y;
 
     //Konstruktordefinition
-    Punkt(double a, double b) {
+    public Punkt(double a, double b) {
         x = a;
         y = b;
     }
