@@ -9,7 +9,7 @@ public class Vektor {
             this(0, 0, 0);
         }
 
-        //Besitzen Methoden- und KOnstruktorenparameter die gleichen NAmen wie die Instanzfelder, dann müssen diese
+        //Besitzen Methoden- und Konstruktorenparameter die gleichen NAmen wie die Instanzfelder, dann müssen diese
         //über this angesprochen werden
         public Vektor(int x, int y, int z) {
             this.x = x;
